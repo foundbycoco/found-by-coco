@@ -44,9 +44,14 @@ a {
 }
 
 .brand {
-  font-size: 1.35rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+}
+
+.brand img {
+  width: 150px;
+  height: auto;
+  display: block;
 }
 
 .nav-links {
